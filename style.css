@@ -114,7 +114,6 @@ body {
 .card-body {
   display: flex;
   flex-direction: column;
-  gap: 24px;
 
   > .card-description {
     color: var(--blue-500);
