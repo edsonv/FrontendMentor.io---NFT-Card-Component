@@ -1,0 +1,27 @@
+{
+  "name": "nft-card-component",
+  "version": "1.0.0",
+  "description": "FrontendMentor.io project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsonv/FrontendMentor.io---NFT-Card-Component.git"
+  },
+  "keywords": [
+    "FrontendMentor.io",
+    "Card",
+    "Component"
+  ],
+  "author": "Edson J. Vargas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edsonv/FrontendMentor.io---NFT-Card-Component/issues"
+  },
+  "homepage": "https://github.com/edsonv/FrontendMentor.io---NFT-Card-Component#readme",
+  "dependencies": {
+    "ghpages": "^0.0.10"
+  }
+}
