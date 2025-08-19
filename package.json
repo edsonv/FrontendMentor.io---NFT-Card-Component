@@ -4,7 +4,8 @@
   "description": "FrontendMentor.io project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,6 @@
   },
   "homepage": "https://github.com/edsonv/FrontendMentor.io---NFT-Card-Component#readme",
   "dependencies": {
-    "ghpages": "^0.0.10"
+    "gh-pages": "^6.3.0"
   }
 }
