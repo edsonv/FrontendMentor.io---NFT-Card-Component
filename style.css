@@ -163,6 +163,7 @@ body {
 .card-footer {
   display: flex;
   align-items: center;
+  gap: 16px;
   > .footer-image {
     width: 33px;
     height: 33px;
