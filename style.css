@@ -81,8 +81,6 @@
 
 body {
   background-color: var(--blue-950);
-  font-size: var(--font-size);
-  font-family: var(--font-family);
   color: var(--white);
   display: flex;
   flex-direction: column;
