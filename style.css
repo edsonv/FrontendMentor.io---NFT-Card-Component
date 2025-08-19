@@ -32,8 +32,8 @@
   --blue-900: hsl(216, 50%, 16%);
   --blue-800: hsl(215, 32%, 27%);
   --white: hsl(0, 0%, 100%);
-  font-family: "Outfit", sans-serif;
-  font-size: 16px;
+  --font-family: "Outfit", sans-serif;
+  --font-size: 16px;
 }
 
 * {
@@ -41,6 +41,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: var(--font-size);
 }
 
 .text-preset-1 {
