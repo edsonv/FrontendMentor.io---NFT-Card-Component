@@ -41,7 +41,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: var(--font-size);
 }
 
 .text-preset-1 {
@@ -81,6 +80,7 @@
 }
 
 body {
+  font-size: var(--font-size);
   background-color: var(--blue-950);
   color: var(--white);
   display: flex;
