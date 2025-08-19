@@ -32,7 +32,7 @@
   --blue-900: hsl(216, 50%, 16%);
   --blue-800: hsl(215, 32%, 27%);
   --white: hsl(0, 0%, 100%);
-  --font-family: "Outfit", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 16px;
 }
 
@@ -44,28 +44,24 @@
 }
 
 .text-preset-1 {
-  font-family: var(--font-family);
   font-size: 1.375rem;
   line-height: 1.25;
   font-weight: 600;
 }
 
 .text-preset-2 {
-  font-family: var(--font-family);
   font-size: 1.125rem;
   line-height: 1.45;
   font-weight: 300;
 }
 
 .text-preset-3 {
-  font-family: var(--font-family);
   font-size: 1rem;
   line-height: 1.25;
   font-weight: 600;
 }
 
 .text-preset-4 {
-  font-family: var(--font-family);
   font-size: 1rem;
   line-height: 1.25;
   font-weight: 400;
@@ -135,12 +131,8 @@ body {
       align-items: center;
       gap: 8px;
       color: var(--cyan-400);
-      font-weight: 700;
-      font-size: 1.25rem;
     }
     > .date {
-      font-size: 1.25rem;
-      font-weight: 400;
       display: flex;
       justify-content: center;
       align-items: center;
