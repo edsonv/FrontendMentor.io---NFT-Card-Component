@@ -95,13 +95,12 @@ body {
 
 .card {
   max-width: 350px;
-  width: 100%px;
+  width: 100%;
   border-radius: 15px;
   background-color: var(--blue-900);
   padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
 }
 
 .card-image {
