@@ -124,14 +124,14 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    > .price {
+    .price {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 8px;
       color: var(--cyan-400);
     }
-    > .date {
+    .date {
       display: flex;
       justify-content: center;
       align-items: center;
