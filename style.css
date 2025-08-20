@@ -164,13 +164,12 @@ body {
       width: 33px;
       height: 33px;
     }
-  }
-
-  > .author {
-    font-weight: 400;
-    color: var(--blue-500);
-    > .name {
-      color: var(--white);
+    > .author {
+      font-weight: 400;
+      color: var(--blue-500);
+      > .name {
+        color: var(--white);
+      }
     }
   }
 }
