@@ -27,10 +27,10 @@
   --md-mobile: 375px;
   --md-desktop: 1440px;
   --blue-500: hsl(215, 51%, 70%);
-  --cyan-400: hsl(178, 100%, 50%);
-  --blue-950: hsl(217, 54%, 11%);
-  --blue-900: hsl(216, 50%, 16%);
   --blue-800: hsl(215, 32%, 27%);
+  --blue-900: hsl(216, 50%, 16%);
+  --blue-950: hsl(217, 54%, 11%);
+  --cyan-400: hsl(178, 100%, 50%);
   --white: hsl(0, 0%, 100%);
   --font-family: "Outfit", sans-serif;
   --font-size: 16px;
@@ -72,9 +72,9 @@
   width: 0.0625rem;
   height: 0.0625rem;
   padding: 0;
-  margin: -1px;
+  margin: -0.0625rem;
   overflow: hidden;
-  clip: rect(0 0 0 0);
+  clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
   border: 0;
 }
@@ -94,7 +94,7 @@ body {
 .card {
   max-width: 21.875rem;
   width: 100%;
-  /* height: 37.25rem; */
+  min-height: 37.25rem;
   border-radius: 15px;
   background-color: var(--blue-900);
   padding: 24px;
@@ -167,7 +167,7 @@ body {
     > .author {
       font-weight: 400;
       color: var(--blue-500);
-      > .name {
+      .name {
         color: var(--white);
       }
     }
