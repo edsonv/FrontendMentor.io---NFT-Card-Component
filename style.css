@@ -167,9 +167,9 @@ body {
     > .author {
       font-weight: 400;
       color: var(--blue-500);
-      .name {
-        color: var(--white);
-      }
+    }
+    > .author > .name {
+      color: var(--white);
     }
   }
 }
